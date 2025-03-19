@@ -1,8 +1,8 @@
 /* Media de Notas */
 
-const nota1 = 3;
-const nota2 = 3;
-const nota3 = 6;
+const nota1 = 6;
+const nota2 = 7;
+const nota3 = 7;
 
 const media =(nota1 + nota2 + nota3)/3;
 console.log(media)
