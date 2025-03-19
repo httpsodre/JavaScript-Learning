@@ -1,6 +1,6 @@
 /* Valor pago de um produto */
 const valorProduto = 100;
-const formaDePagamento = 1;
+const formaDePagamento = 2;
 
 if (formaDePagamento === 1){
     const descontoDebito = (valorProduto * 0.1)
