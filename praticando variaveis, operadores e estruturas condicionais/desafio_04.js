@@ -1,6 +1,6 @@
 /* Calculo de IMC*/
 const altura = 183
-const peso = 115
+const peso = 1150
 const imc = peso / (altura * altura)
 
 console.log(imc)
