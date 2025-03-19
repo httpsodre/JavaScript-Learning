@@ -5,7 +5,7 @@ const formaDePagamento = 2;
 if (formaDePagamento === 1){
     const descontoDebito = (valorProduto * 0.1)
 console.log(valorProduto - descontoDebito)
-} else if (formadepagamento === 2){
+} else if (formaDePagamento === 2){
     const descontoPixDinheiro = (valorProduto * 0.15)
     console.log(valorProduto-descontoPixDinheiro)
 }else if (formaDePagamento === 3){
