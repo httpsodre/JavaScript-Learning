@@ -1,6 +1,6 @@
 const etanol = 4.22;
 const gasolina = 5.63;
-const tipoCombustivel = 'Etanol';
+const tipoCombustivel = 'gasolina';
 const kmPorLitro = 12;
 const distanciaEmKm = 500; 
 
