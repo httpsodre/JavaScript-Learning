@@ -14,4 +14,4 @@ console.log(valorProduto - descontoDebito)
     const juros = (valorProduto * 0.1)
     console.log(valorProduto + juros)
 }
-  
+
