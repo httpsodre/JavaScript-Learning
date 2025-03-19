@@ -1,10 +1,10 @@
 const combutivel = 6.34;
-const gastoDeCombustivel = 14.2;
-const distancia = 500;
+const kmPorLitro = 14.2;
+const distanciaEmKm = 500;
 const rs = "R$"
 const espaco = " "
 
-let gastoDistancia = distancia - gastoDeCombustivel
-let valorViagem = rs + espaco + gastoDistancia * combutivel
+const gastoDistancia = distanciaEmKm / kmPorLitro
+const valorViagem = rs + espaco + gastoDistancia * combutivel
 
 console.log(valorViagem)
