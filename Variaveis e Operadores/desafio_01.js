@@ -7,4 +7,4 @@ const espaco = " ";
 const gastoDistancia = distanciaEmKm / kmPorLitro;
 const valorViagem = rs + espaco + gastoDistancia * combutivel;
 
-console.log(valorViagem);
+console.log(valorViagem.tofixed(2));
