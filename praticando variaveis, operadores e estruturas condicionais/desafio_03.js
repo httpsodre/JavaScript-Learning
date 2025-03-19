@@ -1,6 +1,6 @@
 /* Media de Notas */
 
-const nota1 = 8;
+const nota1 = 3;
 const nota2 = 7;
 const nota3 = 6;
 
