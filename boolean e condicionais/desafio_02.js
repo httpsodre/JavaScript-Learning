@@ -4,6 +4,7 @@ const tipoCombustivel = 'Etanol';
 const kmPorLitro = 12;
 const distanciaEmKm = 500; 
 
+
 if (tipoCombustivel === "Etanol") {
-    console.log(distanciaEmKm / kmPorLitro * etanol);
+    console.log(distanciaEmKm / kmPorLitro * etanol.toFixed(2));
 }
