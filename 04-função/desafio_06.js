@@ -1,7 +1,7 @@
 /* Escrevendo meu nome com função */
 
-function meuNome(name){
+function escrevaMeuNome(name){
     return name;
 }
 
-console.log(meuNome("Alan"));
+console.log(escrevaMeuNome("Alan"));
