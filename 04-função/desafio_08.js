@@ -1,7 +1,7 @@
 /* Usando uma função dentro de outra */
 
 function escrevaMeuNome (name){
-    return 'meu nome é' + name
+    return  name
 }
 
 function verificarIdade(idade){
