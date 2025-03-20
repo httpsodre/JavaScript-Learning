@@ -12,4 +12,4 @@ function verificarIdade(idade){
     }
 }
 
-verificarIdade(26)
+verificarIdade(16)
