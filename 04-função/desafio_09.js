@@ -11,7 +11,7 @@ function juros (valor, juros){
     return (valor + (valor *(juros/100)))
 }
 const valorProduto = 100;
-const formaDePagamento = 3;
+const formaDePagamento = 2;
 
 if (formaDePagamento === 1){
 console.log(desconto(valorProduto, 10))
