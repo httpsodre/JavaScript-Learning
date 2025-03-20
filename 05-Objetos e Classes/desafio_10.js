@@ -21,5 +21,6 @@ class Viagem {
 }
 const carro = new Carro('Chevrolet', 'Prata', 10);
 const viagem = new Viagem(carro, 500, 6.5);
-console.log(viagem.calcularCusto + ''('autonomia do veiculo = ' + viagem.obterAutonomia())); 
+console.log(viagem.calcularCusto ()+ ' reais'); 
+console.log(viagem.obterAutonomia() + ' km');
 
