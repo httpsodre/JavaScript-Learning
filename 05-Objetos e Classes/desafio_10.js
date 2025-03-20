@@ -13,7 +13,7 @@ class Viagem {
         this.precoLitro = precoLitro;
     }
     obterAutonomia() {
-        return this.carro.kmPorLitro / this.distancia;
+        return this.carro.kmPorLitro * this.distancia;
     }
     calcularCusto() {
         return this.distancia / this.carro.kmPorLitro * this.precoLitro;
