@@ -21,6 +21,8 @@ class Viagem {
 }
 const carro = new Carro('Chevrolet', 'Prata', 10);
 const viagem = new Viagem(carro, 500, 6.5);
+console.log('O' + ' ' carro + ' ' + 'percorre' + ' ' + viagem.obterAutonomia() + ' ' + 'km por litro');
 console.log(viagem.calcularCusto ()+ ' reais'); 
-console.log(viagem.obterAutonomia() + ' km');
+
+
 
