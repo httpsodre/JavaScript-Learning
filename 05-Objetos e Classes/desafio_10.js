@@ -20,6 +20,6 @@ class Viagem {
     }
 }
 const carro = new Carro('Chevrolet', 'Prata', 10);
-const viagem = new Viagem(carro, 100, 4.5);
+const viagem = new Viagem(carro, 500, 6.5);
 console.log(viagem.calcularCusto()); 
 
