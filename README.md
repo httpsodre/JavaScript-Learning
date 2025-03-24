@@ -1,1 +1,1 @@
-# JavaScript-DIO
+# JavaScript
