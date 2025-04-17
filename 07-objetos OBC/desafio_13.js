@@ -11,8 +11,8 @@ do{
         case "1":
             const imovel ={}
             imovel.proprietario = prompt ("Informe o nome do proprietario:")
-            imovel.quarto = parseFloat(prompt ("Informe o nome do proprietario:"))
-            imovel.banheiro = parseFloat(prompt ("Informe o nome do proprietario:"))
+            imovel.quarto = parseFloat(prompt ("Informe o numero de quartos:"))
+            imovel.banheiro = parseFloat(prompt ("Informe o numero de banheiros:"))
             imovel.garagem = prompt ("O imovel possui garagem? (sim/não)")
 
             const confirma = confirm(
