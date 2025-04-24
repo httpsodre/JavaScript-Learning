@@ -4,7 +4,7 @@ function listarVagas() {
     const vagasEmTexto = vagas.reduce(function (textoFinal, vaga, indice) {
         textoFinal += indice + ". ";
         textoFinal += vaga.nome;
-        textoFinal += " (" + vaga.candidatos.length + " candidatos\n";
+        textoFinal += " (" + vaga.candidatos.length + " candidatos)\n";
         return textoFinal;
     }, "");
 
@@ -37,13 +37,12 @@ function novaVaga() {
 function exibirVaga() {
     const indice = prompt("Informe o índice da vga que deseja exibir:");
 
-    if (indice >= vagas.length || indice < 0){
-        alert ("Indice invalido.")
+    if (indice >= vagas.length || indice < 0) {
+        alert("Indice invalido.")
         return
     }
     const vaga = vagas[indice];
-
-    const candidatosEmTexto = vagas.candidatos.reduce(function (
+    const candidatosEmTexto = vaga.candidatos.reduce(function (
         textoFinal,
         candidato
     ) {
@@ -61,7 +60,7 @@ function exibirVaga() {
         "\nData Limite: " +
         vaga.dataLimite +
         "\nQuantidade de candidatos: " +
-        vagas.candidatos.length +
+        vaga.candidatos.length +
         "\nCandidatos Inscritos" +
         candidatosEmTexto
     );
@@ -72,7 +71,7 @@ function increverCandidato() {
     const indice = prompt(
         "Informe o indice da vaga para qual o(a) candidato(a) deseja se inscrever:"
     );
-    const vaga = vagas[inidice];
+    const vaga = vagas[indice];
 
     const confirmacao = confirm(
         "Deseja inscrever o candidato(a) " +
@@ -88,7 +87,7 @@ function increverCandidato() {
         vaga.dataLimite
     );
     if (confirmacao) {
-        vaga.candidatos.push[candidato];
+        vaga.candidatos.push(candidato);
         alert("Inscrição realizada.");
     }
 }
@@ -133,7 +132,7 @@ function executar() {
     let opcao = "";
 
     do {
-        opcao = exibirMenu;
+        opcao = exibirMenu();
 
         switch (opcao) {
             case "1":
@@ -152,12 +151,12 @@ function executar() {
                 excluirVaga()
                 break
             case "6":
-                alert ("Saindo...")
+                alert("Saindo...")
                 break
             default:
-                alert("Opção invalida.")    
+                alert("Opção invalida.")
         }
-    } while (opcao !== 6);
+    } while (opcao !== "6");
 }
 
 executar()
