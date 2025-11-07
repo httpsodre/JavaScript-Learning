@@ -31,16 +31,6 @@ O plano de desenvolvimento abaixo delineia as habilidades adquiridas e as futura
 
 ---
 
-### **Portfólio de Projetos Aplicados**
-
-A seguir, uma seleção de projetos desenvolvidos para demonstrar a aplicação prática dos conceitos estudados.
-
-| Projeto | Módulo Associado | Descrição Técnica |
-| :--- | :---: | :--- |
-| **Buscador de Endereços (CEP)** | M02 | Aplicação frontend que consome a API da ViaCEP para preencher formulários de endereço automaticamente, usando `async/await`. |
-| **Lista de Tarefas (To-Do List)** | M01 / M03 | CRUD (Create, Read, Update, Delete) de tarefas com persistência em `localStorage`, desenvolvido inicialmente com JS puro e refatorado para React. |
-| **[Próximo Projeto Planejado]** | M04 / M05 | *[Ex: API RESTful para gerenciamento de usuários, utilizando Node.js, Express e PostgreSQL]* |
-
 ---
 
 ### **Tech Stack**
