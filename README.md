@@ -53,5 +53,5 @@ Ferramentas e tecnologias utilizadas neste projeto de desenvolvimento.
 
 Estou aberto a novas oportunidades e colaborações.
 
-* **LinkedIn:** `https://www.linkedin.com/in/alan-campos-sodré-ferreira-204196333`
+* **LinkedIn:** https://www.linkedin.com/in/alan-campos-sodré-ferreira-204196333
 * **Email:** `camposalansodre@gmail.com`
