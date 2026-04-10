@@ -1,57 +1,63 @@
+# JavaScript Learning
 
-# Projeto de Desenvolvimento Profissional em JavaScript
+Repositorio dedicado a documentar minha evolucao pratica em JavaScript por meio de exercicios, desafios e pequenos projetos.
 
-Este repositório documenta minha capacitação contínua no ecossistema JavaScript. O objetivo é registrar a evolução das minhas habilidades, desde a manipulação do DOM e lógica fundamental até a construção de aplicações full-stack modernas.
+O objetivo deste material e consolidar fundamentos de desenvolvimento antes de avancar para aplicacoes full-stack maiores. Em vez de servir apenas como arquivo de curso, este repositorio funciona como registro tecnico da minha progressao em logica, funcoes, objetos, arrays e manipulacao de DOM.
 
-**Status do Projeto:** Ativo / Em Desenvolvimento
+## Estrutura do repositorio
 
----
+| Modulo | Conteudo principal | Origem |
+| --- | --- | --- |
+| `01-Variaveis e Operadores-DIO` | variaveis, operadores e primeiros exercicios | DIO |
+| `02-boolean e condicionais-DIO` | condicionais e comparacoes | DIO |
+| `03-praticando-DIO` | pratica de logica com desafios progressivos | DIO |
+| `04-funcao-DIO` | funcoes e organizacao de codigo | DIO |
+| `05-Objetos e Classes-DIO` | objetos, classes e modelagem basica | DIO |
+| `06-Arrays-OBC` | arrays e desafios com estruturas de dados simples | OneBitCode |
+| `07-objetos-OBC` | objetos em cenarios mais aplicados | OneBitCode |
+| `08-Funcoes-OBC` | funcoes com exercicios e calculos praticos | OneBitCode |
+| `09-desafio-final-JS3-OBC` | desafio final do modulo | OneBitCode |
+| `10-DOM-NO-HTML-OBC` | manipulacao de DOM com HTML e JavaScript | OneBitCode |
 
-### **Sumário Executivo**
+## Projetos e exercicios em destaque
 
-Este projeto é um roteiro de estudos prático, estruturado para construir e solidificar competências em desenvolvimento de software com JavaScript. Cada módulo representa uma área de conhecimento específica, validada através de exercícios e projetos aplicados, cobrindo tanto o frontend quanto o backend.
+- `FilaDeEspera.html`: simulacao de fila com operacoes de entrada e saida
+- `pilhaDeCartas.html`: exercicio pratico com conceito de pilha
+- `imoveis.html`: cadastro simples orientado a objetos
+- `calculadoraGeometrica.html`: funcoes aplicadas a calculos geometricos
+- `VAGAS.HTML`: desafio final com logica de cadastro e gerenciamento
+- `10-DOM NO HTML - OBC/`: interacao com pagina HTML e manipulacao de elementos via JavaScript
 
----
+## Competencias trabalhadas
 
-### **Roteiro de Competências**
+- sintaxe e fundamentos de JavaScript
+- logica de programacao
+- funcoes e reutilizacao de codigo
+- objetos e classes
+- arrays e estruturas basicas
+- manipulacao de DOM
+- resolucao de problemas por meio de desafios incrementais
 
-O plano de desenvolvimento abaixo delineia as habilidades adquiridas e as futuras áreas de foco.
+## Como executar
 
-| Status | Módulo | Competências Desenvolvidas |
-| :---: | :--- | :--- |
-| ⬜ | **M01: Fundamentos do JS e DOM** | Lógica, sintaxe ES6+, manipulação de DOM, eventos. |
-| ⬜ | **M02: Assincronismo e APIs** | Promises, `async/await`, `fetch` API, consumo de APIs REST. |
-| ⬜ | **M03: Frameworks Frontend (React)** | Componentização, estado (`useState`), ciclo de vida (`useEffect`), roteamento. |
-| ⬜ | **M04: Desenvolvimento Backend (Node.js)** | Criação de APIs RESTful com `Express`, gerenciamento de pacotes (`npm`/`yarn`). |
-| ⬜ | **M05: Bancos de Dados e ORMs** | Integração com bancos de dados (SQL ou NoSQL), `Prisma` ou `Sequelize`. |
-| ⬜ | **M06: Testes e Qualidade** | Testes unitários e de integração com `Jest` e `React Testing Library`. |
-| ⬜ | **M07: TypeScript** | Adoção de tipagem estática para robustez e escalabilidade. |
+### Arquivos `.js`
 
-**Legenda:** ✅ Concluído | 🔄 Em Progresso | ⬜ Planejado
+Voce pode executar os desafios em JavaScript com Node.js:
 
----
+```bash
+node nome-do-arquivo.js
+```
 
----
+### Arquivos `.html`
 
-### **Tech Stack**
+Abra o arquivo HTML diretamente no navegador para testar a interface e as interacoes.
 
-Ferramentas e tecnologias utilizadas neste projeto de desenvolvimento.
+## Contexto do repositorio
 
-<p>
-  <img src="https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black" alt="JavaScript"/>
-  <img src="https://img.shields.io/badge/React-61DAFB?style=for-the-badge&logo=react&logoColor=black" alt="React"/>
-  <img src="https://img.shields.io/badge/Node.js-339933?style=for-the-badge&logo=nodedotjs&logoColor=white" alt="Node.js"/>
-  <img src="https://img.shields.io/badge/HTML5-E34F26?style=for-the-badge&logo=html5&logoColor=white" alt="HTML5"/>
-  <img src="https://img.shields.io/badge/CSS3-1572B6?style=for-the-badge&logo=css3&logoColor=white" alt="CSS3"/>
-  <img src="https://img.shields.io/badge/Git-F05032?style=for-the-badge&logo=git&logoColor=white" alt="Git"/>
-  <img src="https://img.shields.io/badge/VS_Code-007ACC?style=for-the-badge&logo=visual-studio-code&logoColor=white" alt="VS Code"/>
-</p>
+Este nao e um repositorio de produto final. Ele foi organizado para mostrar a evolucao dos meus estudos de forma transparente e rastreavel. O valor principal aqui esta na consistencia da pratica, na variedade dos exercicios e na base que ele cria para projetos maiores em Node.js, React e TypeScript.
 
----
+## Proximos passos
 
-### **Contato Profissional**
-
-Estou aberto a novas oportunidades e colaborações.
-
-* **LinkedIn:** https://www.linkedin.com/in/alan-campos-sodré-ferreira-204196333
-* **Email:** `camposalansodre@gmail.com`
+- adicionar projetos mais completos conectando front-end e back-end
+- incluir README especifico para os exercicios mais relevantes
+- transformar os melhores desafios em demos mais apresentaveis
