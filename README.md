@@ -1,50 +1,50 @@
 # Trilha de Estudos em JavaScript
 
-Repositorio dedicado a documentar minha evolucao pratica em JavaScript por meio
-de exercicios, desafios e pequenos projetos.
+Repositório dedicado a documentar minha evolução prática em JavaScript por meio
+de exercícios, desafios e pequenos projetos.
 
-Este nao e um produto final. O objetivo e mostrar uma base real em logica,
-funcoes, objetos, arrays, estruturas simples e manipulacao de DOM antes de
-avancar para aplicacoes maiores com React, Node.js e TypeScript.
+Este não é um produto final. O objetivo é mostrar uma base real em lógica,
+funções, objetos, arrays, estruturas simples e manipulação de DOM antes de
+avançar para aplicações maiores com React, Node.js e TypeScript.
 
 ## Status
 
-Em evolucao. Este repositorio funciona como registro tecnico de estudo e pratica
-continua.
+Em evolução. Este repositório funciona como registro técnico de estudo e prática
+contínua.
 
-## O que este repositorio demonstra
+## O que este repositório demonstra
 
 - Sintaxe e fundamentos de JavaScript
-- Logica de programacao com desafios progressivos
-- Funcoes e reaproveitamento de codigo
-- Objetos, classes e modelagem basica
+- Lógica de programação com desafios progressivos
+- Funções e reaproveitamento de código
+- Objetos, classes e modelagem básica
 - Arrays e estruturas simples, como fila e pilha
-- Manipulacao de DOM com HTML e JavaScript
-- Organizacao incremental de estudos por modulo
+- Manipulação de DOM com HTML e JavaScript
+- Organização incremental de estudos por módulo
 
 ## Estrutura
 
-| Modulo | Conteudo principal | Origem |
+| Módulo | Conteúdo principal | Origem |
 | --- | --- | --- |
-| `01-Variaveis e Operadores-DIO` | variaveis, operadores e primeiros exercicios | DIO |
-| `02-boolean e condicionais-DIO` | condicionais e comparacoes | DIO |
-| `03-praticando-DIO` | pratica de logica com desafios progressivos | DIO |
-| `04-funcao-DIO` | funcoes e organizacao de codigo | DIO |
-| `05-Objetos e Classes-DIO` | objetos, classes e modelagem basica | DIO |
+| `01-Variaveis e Operadores-DIO` | variáveis, operadores e primeiros exercícios | DIO |
+| `02-boolean e condicionais-DIO` | condicionais e comparações | DIO |
+| `03-praticando-DIO` | prática de lógica com desafios progressivos | DIO |
+| `04-função-DIO` | funções e organização de código | DIO |
+| `05-Objetos e Classes-DIO` | objetos, classes e modelagem básica | DIO |
 | `06-Arrays -OBC` | arrays, fila e pilha | OneBitCode |
-| `07-objetos OBC` | objetos em cenarios aplicados | OneBitCode |
-| `08-Funcoes OBC` | funcoes com exercicios e calculos praticos | OneBitCode |
+| `07-objetos OBC` | objetos em cenários aplicados | OneBitCode |
+| `08-Funções OBC` | funções com exercícios e cálculos práticos | OneBitCode |
 | `09-desafio final JS3- OBC` | desafio de cadastro e gerenciamento de vagas | OneBitCode |
-| `10-DOM NO HTML - OBC` | manipulacao de DOM com pagina HTML | OneBitCode |
+| `10-DOM NO HTML - OBC` | manipulação de DOM com página HTML | OneBitCode |
 
-## Exercicios em destaque
+## Exercícios em destaque
 
-- `06-Arrays -OBC/FilaDeEspera.html`: simulacao de fila com entrada e saida
-- `06-Arrays -OBC/pilhaDeCartas.html`: exercicio com conceito de pilha
+- `06-Arrays -OBC/FilaDeEspera.html`: simulação de fila com entrada e saída
+- `06-Arrays -OBC/pilhaDeCartas.html`: exercício com conceito de pilha
 - `07-objetos OBC/imoveis.html`: cadastro simples orientado a objetos
-- `08-Funcoes OBC/calculadoraGeometrica.html`: funcoes aplicadas a calculos geometricos
+- `08-Funções OBC/calculadoraGeometrica.html`: funções aplicadas a cálculos geométricos
 - `09-desafio final JS3- OBC/VAGAS.HTML`: cadastro de vagas e candidatos
-- `10-DOM NO HTML - OBC/`: interacao com pagina HTML e manipulacao de elementos
+- `10-DOM NO HTML - OBC/`: interação com página HTML e manipulação de elementos
 
 ## Como executar
 
@@ -58,13 +58,13 @@ Arquivos HTML podem ser abertos diretamente no navegador.
 
 ## Leitura para recrutadores
 
-Este repositorio mostra base e consistencia, nao senioridade. Ele deve ser lido
-como evidencia de fundamentos para estagio e como ponto de partida para projetos
-de portfolio mais completos.
+Este repositório mostra base e consistência, não senioridade. Ele deve ser lido
+como evidência de fundamentos para estágio e como ponto de partida para projetos
+de portfólio mais completos.
 
-## Proximos passos
+## Próximos passos
 
-- Criar README curto para os exercicios mais relevantes
+- Criar README curto para os exercícios mais relevantes
 - Melhorar nomes de arquivos e padronizar pastas
 - Transformar os melhores desafios em mini-projetos com interface mais clara
-- Adicionar capturas de tela ou GIFs dos exercicios com DOM
+- Adicionar capturas de tela ou GIFs dos exercícios com DOM
